@@ -1,0 +1,34 @@
+{
+  "name": "Steven",
+  "currentRoomId": "town-square",
+  "inventoryItemIds": [
+    "rusty-key",
+    "faded-torch"
+  ],
+  "equipment": {},
+  "gold": 15,
+  "completedQuests": [
+    "quest-mushroom"
+  ],
+  "killCount": {
+    "grumpy-goblin": 1,
+    "spawn-goblin-1770335541872": 1,
+    "spawn-spider-1770335558156": 1
+  },
+  "hp": 120,
+  "maxHp": 120,
+  "stamina": 120,
+  "maxStamina": 120,
+  "energy": 30,
+  "maxEnergy": 30,
+  "regenRate": 5,
+  "level": 1,
+  "xp": 42,
+  "godMode": false,
+  "class": "WARRIOR",
+  "skills": [
+    "heavy-strike"
+  ],
+  "attack": 12,
+  "isAlive": true
+}

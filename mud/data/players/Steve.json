@@ -1,0 +1,34 @@
+{
+  "name": "Steve",
+  "currentRoomId": "town-square",
+  "inventoryItemIds": [
+    "spider-fang",
+    "steel-sword-1"
+  ],
+  "equipment": {
+    "WEAPON": "steel-sword-1"
+  },
+  "gold": 175,
+  "completedQuests": [],
+  "killCount": {
+    "spawn-dragon-1770337554611": 1,
+    "spawn-dragon-1770337592165": 1
+  },
+  "hp": 78,
+  "maxHp": 78,
+  "stamina": 55,
+  "maxStamina": 55,
+  "energy": 108,
+  "maxEnergy": 108,
+  "regenRate": 5,
+  "level": 2,
+  "xp": 100,
+  "godMode": true,
+  "class": "MAGE",
+  "skills": [
+    "fireball"
+  ],
+  "attack": 15,
+  "isAlive": true,
+  "isAdmin": true
+}
