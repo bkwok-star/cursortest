@@ -85,6 +85,16 @@ Automatic deployment configured via `.github/workflows/deploy.yml`:
 - `styles.css`: All styling, themes, responsive breakpoints
 - `script.js`: Interactivity, event handlers, notifications, search, theme toggle
 
+## Jira T3 Access (MCP)
+
+This repo has the **t3** Jira MCP server configured (`.mcp.json`, `.cursor/mcp.json`). Use it to query Uber Jira T3:
+
+**Auto-approve Jira tool prompts:** Run `scripts/cursor-mcp-autorun-fix.sh` (quit Cursor first) to fix MCP prompts that require manual approval each time.
+
+- **Auth**: Uses uSSO via `aifx mcp run t3` (no API tokens needed)
+- **Example prompts**: "Show open MORE tickets for H1 2026", "Search Jira for issues assigned to me"
+- **Tools**: `jira_search`, `jira_get_project_issues`, `jira_get_board_issues`, `jira_get_sprints_from_board`
+
 ## Notes for AI Assistants
 
 - No package.json, no build process, no npm scripts

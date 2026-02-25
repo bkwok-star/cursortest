@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "code-mcp": {"command": "aifx", "args": ["mcp", "run", "code-mcp"]},
+    "t3": {"command": "aifx", "args": ["mcp", "run", "t3"]},
+    "engwiki": {"command": "aifx", "args": ["mcp", "run", "engwiki"]}
+  }
+}
